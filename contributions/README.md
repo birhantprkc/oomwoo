@@ -36,7 +36,7 @@ work.
 | [live-robot-bringup](live-robot-bringup) | Live robot bring-up & validation | ![10%](https://img.shields.io/badge/10%25-red) | Proscenic M6 Pro to ROS2 tutorials; 3irobotix Delta-2C Pro LiDAR driver implemented and validated |
 | [health-monitor](health-monitor) | Stack health monitor & software watchdog | ![0%](https://img.shields.io/badge/0%25-red) | design-first: contracts drafted, ready to start |
 | [compute-benchmark](compute-benchmark) | Compute benchmark & memory reduction | ![70%](https://img.shields.io/badge/70%25-yellow) | tentatively fits 2 GB Pi CM4/CM5; an old smartphone is now a supported compute option (no Pi needed); repeatable Pi benchmark CLI + guide |
-| [mcu-io-firmware](mcu-io-firmware) | MCU I/O board firmware (STM32G473) | ![5%](https://img.shields.io/badge/5%25-red) | architecture RFC written; repo has no code yet |
+| [mcu-io-firmware](mcu-io-firmware) | MCU I/O board firmware (STM32G473) | ![5%](https://img.shields.io/badge/5%25-red) | host-tested framing/safety prototypes + simulated CPU/MCU loop; real STM32 HAL, motor and safety bring-up open |
 | [io-board-interface](io-board-interface) | I/O board software interface | ![30%](https://img.shields.io/badge/30%25-yellow) | SPEC.md (GPIO/pinout contract) drafted; ROS2 bridge mapping + validation open |
 | [urdf-gazebo-sim](urdf-gazebo-sim) | oomwoo URDF + Gazebo simulation | ![90%](https://img.shields.io/badge/90%25-brightgreen) | sim model essentially complete: full sensor suite, living-room + kitchen worlds, docks, GPU rendering |
 | [mac-dev-env](mac-dev-env) | macOS (Apple Silicon) dev environment (pixi) | ![40%](https://img.shields.io/badge/40%25-yellow) | initial working pixi recipe (experimental) |

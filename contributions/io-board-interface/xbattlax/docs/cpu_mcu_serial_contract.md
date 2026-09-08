@@ -131,3 +131,9 @@ latched fault bit until the fault is cleared or explicitly acknowledged.
 The Python reference codec in `tools/oomwoo_mcu_frame.py` implements this frame
 format and a few payload helpers. It is not the final bridge, but it gives the
 firmware, ROS2, and test work a shared executable reference.
+
+The [`conformance`](../conformance) directory mirrors frozen message IDs and
+payload layouts into a machine-readable manifest and generated golden vectors.
+The Markdown contract remains normative. CI requires every codec message ID to
+have either a tested vector or an explicit open-payload reason, then validates the
+same frame bytes in Python, C11, and C++17.
